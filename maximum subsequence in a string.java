@@ -11,7 +11,7 @@ class GFG
              
              for(int j=1;j<=m;j++){
                  
-                 //if weight is less than j
+                 
                  if(input1[i-1]==input2[j-1])
                  a[i][j]=a[i-1][j-1]+1;
                  // maximum of not considering currentweight ,considering current weight
@@ -35,8 +35,7 @@ class GFG
             int n = Integer.parseInt(br.readLine()); 
             
   
-            // Declaring array 
-           
+   
             
   
             // to read multiple integers line 
